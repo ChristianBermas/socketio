@@ -1,0 +1,29 @@
+{
+  "name": "php-socket",
+  "version": "1.0.0",
+  "description": "Creating Live Chat Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "start": "node bundle.js"
+  },
+  "author": "Christian Bermas",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "file-system": "^2.2.2",
+    "socket.io": "^2.5.1",
+    "winston": "^3.15.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.8",
+    "@babel/preset-env": "^7.25.8",
+    "babel-loader": "^9.2.1",
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-node-externals": "^3.0.0"
+  }
+}
