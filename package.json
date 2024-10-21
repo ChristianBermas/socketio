@@ -2,10 +2,9 @@
   "name": "php-socket",
   "version": "1.0.0",
   "description": "Creating Live Chat Server",
-  "main": "index.js",
+  "main": "bundle.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --mode production",
+    "build": "webpack --config webpack.config.js",
     "start": "node bundle.js"
   },
   "author": "Christian Bermas",
